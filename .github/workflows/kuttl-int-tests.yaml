@@ -1,5 +1,8 @@
 name: "Integration tests"
 on:
+  push:
+    branches:
+      - ci-test
   pull_request:
     branches:
       - main
